@@ -299,3 +299,19 @@ line-height: 30px;
     align-items: start;
     flex-direction: column;
 }
+.review{
+    width: 350px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+    gap: 120px;
+    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 20px;
+    transition: 0.5s all;
+  background-color: brown;
+  
+}
