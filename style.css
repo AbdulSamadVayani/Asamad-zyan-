@@ -31,7 +31,7 @@ body {
     position: relative;
     top: -65px;
     bottom: 950px;
-    left: 1100px;
+    left: 800px;
 }
 
 .nav ul li a:hover {
@@ -63,7 +63,7 @@ body {
     flex-direction: column;
     width: 70%;
     position: relative;
-    right: 450px;
+    right: 300px;
 }
 
 h1,
@@ -115,7 +115,7 @@ h1 {
     position: relative;
     top: -550px;
     bottom: 950px;
-    left: 1500px;
+    left: 950px;
 }
 
 .header_img :nth-child(2) {
@@ -300,18 +300,60 @@ line-height: 30px;
     flex-direction: column;
 }
 .review{
-    width: 350px;
-    height: 380px;
+    width: 150px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
- 
-    gap: 120px;
+    gap: 10px;
     border-radius: 15px;
     border: 2px solid gray;
     padding: 20px;
     transition: 0.5s all;
-  background-color: brown;
-  
 }
+    
+    
+
+.review:hover{
+    background-color: rgba(128,128 ,128, 0.131);
+    cursor: pointer;
+    transform: translateX(-20px);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.review i{
+    font-size: 30px;
+    color: #55e6a5;
+}
+.Form input{
+    height: 50px;
+    width: 610px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #55e6a5 ;
+    color: #fff;
+    font-size: 15px;
+} 
+.button{
+    height: 50px;
+    width: 50%;
+    background-color: #55e6a5;
+    font-size: 20px;
+    border: none;
+}
+   
+
+
+    
+    
+
+
+  
+
