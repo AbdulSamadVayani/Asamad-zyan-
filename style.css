@@ -122,16 +122,17 @@ h1 {
     width: 120%;
     position: absolute;
 }
-.Services{
+
+.Services {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding:  80px 2%;
+    padding: 80px 2%;
     background-color: #000
-    
 }
-.Services_info{
+
+.Services_info {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -139,20 +140,24 @@ h1 {
     gap: 10px;
     text-align: center;
 }
-.Services_info h3{
+
+.Services_info h3 {
     font-weight: 600;
     color: #55e6a5;
 }
-.Services_info h1{
+
+.Services_info h1 {
     font-weight: 600;
 }
-.Services_info2{
+
+.Services_info2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
 }
-.Services_design{
+
+.Services_design {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,44 +166,52 @@ h1 {
     gap: 30px;
     border: 1px solid rgb(117, 117, 117);
     height: 300px;
-    transition: 0.6s all ;
+    transition: 0.6s all;
     padding: 10px;
     border-radius: 8px;
 
 }
-.Services_design:hover{
-    background-color: rgba(128,128 ,128, 0.187);
+
+.Services_design:hover {
+    background-color: rgba(128, 128, 128, 0.187);
     transform: scale(1.01);
     transform: translateY(-20px);
     cursor: pointer;
 }
-.Services_design p{
+
+.Services_design p {
     line-height: 30px;
 
 }
+
 .Services_design i {
     font-size: 50px;
     color: #55e6a5;
-   
+
 }
-.Services_design h3{
+
+.Services_design h3 {
     color: #fff;
     font-weight: 400;
 }
-.Services_design p{
+
+.Services_design p {
     font-weight: 400;
 }
-.About{
+
+.About {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: black;
     padding: 80px 8%;
 }
-h1{
+
+h1 {
     font-weight: 600;
 }
-.About_info{
+
+.About_info {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -206,58 +219,65 @@ h1{
     flex-direction: column;
     gap: 20px;
 }
-.About_info{
+
+.About_info {
     width: 64%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
     gap: 20px;
-    
+
 }
-.About_info p{
-line-height: 30px;
+
+.About_info p {
+    line-height: 30px;
 }
-.About_info h3{
+
+.About_info h3 {
     color: #55e6a5;
 }
-.p{
+
+.p {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
 }
-.line{
+
+.line {
     width: 200px;
     height: 5px;
     background-color: gray;
 }
-.About_img_info{
+
+.About_img_info {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 200px;
-    border: 1px solid rgba(128,128 ,128, 0.587);
+    border: 1px solid rgba(128, 128, 128, 0.587);
     gap: 20px;
     transition: 0.5s all;
     border-radius: 8px;
-    background-color: rgba(128,128 ,128, 0.187);
+    background-color: rgba(128, 128, 128, 0.187);
     backdrop-filter: blur(5px);
-    transform:  translateY(-80px);
+    transform: translateY(-80px);
 }
-.About_img_info i{
+
+.About_img_info i {
     color: #fff;
     font-size: 50px;
 }
-.About_img_info h5{
+.About_img_info h5 {
     color: #fff;
 }
-.About_img_info :hover{
-    transform:  translateY(-80px);
+.About_img_info :hover {
+    transform: translateY(-80px);
     cursor: pointer;
 }
-.button{
+.button {
     cursor: pointer;
     border: none;
     border-radius: 3px;
@@ -267,7 +287,7 @@ line-height: 30px;
     align-items: center;
     justify-content: center;
 }
-.Contact{
+.Contact {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -275,7 +295,7 @@ line-height: 30px;
     gap: 50px;
     background-color: #000;
 }
-.Contact_info{
+.Contact_info {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -283,23 +303,23 @@ line-height: 30px;
     width: 50%;
     gap: 20px;
 }
-.Project{
+.Project {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
 }
-.Contact_info h2{
+.Contact_info h2 {
     color: #55e6a5;
     text-align: center;
 }
-.Contact_info2{
+.Contact_info2 {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
 }
-.review{
+.review {
     width: 150px;
     height: 180px;
     display: flex;
@@ -312,43 +332,40 @@ line-height: 30px;
     padding: 20px;
     transition: 0.5s all;
 }
-    
-    
-
-.review:hover{
-    background-color: rgba(128,128 ,128, 0.131);
+.review:hover {
+    background-color: rgba(128, 128, 128, 0.131);
     cursor: pointer;
     transform: translateX(-20px);
 }
-.form{
+.form {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
 }
-.review i{
+.review i {
     font-size: 30px;
     color: #55e6a5;
 }
-.Form input{
+.Form input {
     height: 50px;
     width: 610px;
     padding: 10px;
     margin: 10px;
     background-color: transparent;
     outline: none;
-    border: 1px solid #55e6a5 ;
+    border: 1px solid #55e6a5;
     color: #fff;
     font-size: 15px;
-} 
-.button{
+}
+.button {
     height: 50px;
     width: 50%;
     background-color: #55e6a5;
     font-size: 20px;
     border: none;
 }
-.skills{
+.skills {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -357,107 +374,190 @@ line-height: 30px;
     padding: 4% 0%;
 
 }
-.skills_info{
+.skills_info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
 }
-.skills_info h3{
+.skills_info h3 {
     color: #55e6a5;
 }
-.skills_info h1{
+.skills_info h1 {
     color: #fff;
 }
-.devlopment{
+.devlopment {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 30vh;
     padding: 0% 6%;
     margin: 30px;
-    background-color: chocolate;
-   
-    
 }
-.course{
+.course {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    margin: 30px;
-    width: 40%;
-    background-color: darkmagenta;
-  
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;  
 }
- .courses h2{
+.course h2 {
     color: #fff;
-    font-size: 35px;
-    background-color: crimson;
+    font-size: 35px;  
 }
-.courses h3{
+.course h3 {
     color: #55e6a5;
-    border: 1px solid gray;
+    border: 1px solid #55e6a5;
     padding: 10px;
-    margin: 10px;
     font-weight: 300;
 }
-.courses p{
+.course p {
     color: #fff;
-    background-color: brown;
+    
 }
-.Contact_info h1{
+.Contact_info h1 {
     font-size: 40x !important;
 }
- /* .main_courses{
+.main_courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #000;
+}
+.course1_revil{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-
-}
-.courses_revil{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-
-}
-.courses_warpper{
+} 
+.courses_wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
     width: 500px;
-    height: 500px;
+    height: 80px;
     padding: 10px;
-    background-color: #000;
+    background-color: #0c0e1c;
     color: #fff;
     border: 1px solid #55e6a5;
     padding: 20px;
 }
-.courses_warpper h3{
+.courses_wrapper h3{
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 400; 
 }    
-.h3 a{
-    color: #fff;
+h3 a{
+    color: white;  
 }
-.courses1{
+.course1{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    
+}
+.protfolio_galary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    gap: 20px;
+    padding: 4% 0%;
+}
+.protfolio_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.protfolio_info h1{
+    font-weight: 300;
+    color: #55e6a5;
+
+}
+button :hover{
+    background-color: azure;
+}
+.galary1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}   
+.footer{
+    padding: 4% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}   
+.footer_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_info h1{
+    font-weight: 300;
+}
+.check_mail{
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #55e6a5;
+    background-color: #000;
+}
+.check_mail input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: transparent;
+}
+.check_mail button{
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    background-color: #55e6a5;
+    color: #000;
+    border: none;
+}
+.check_mail button:hover{
+    background-color: #fff;
+    font-weight: 500;
+}
+.main_footer{
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+.main_footer h3{
+    font-weight: 300;
+}
+.main_footer ul{
+    margin: 10px;
+    font-size: 20px;
+}
+.main_footer ul li a{
+    color: #55e6a5;
+    transition: .3s;
+}
+.main_footer ul li a:hover{
+    color: #fff;
 }
 
-
-    
-     
-
-
-  
- */
