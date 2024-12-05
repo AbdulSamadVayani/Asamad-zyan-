@@ -270,13 +270,16 @@ h1 {
     color: #fff;
     font-size: 50px;
 }
+
 .About_img_info h5 {
     color: #fff;
 }
+
 .About_img_info :hover {
     transform: translateY(-80px);
     cursor: pointer;
 }
+
 .button {
     cursor: pointer;
     border: none;
@@ -287,6 +290,7 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
 .Contact {
     display: flex;
     justify-content: space-around;
@@ -295,6 +299,7 @@ h1 {
     gap: 50px;
     background-color: #000;
 }
+
 .Contact_info {
     display: flex;
     justify-content: center;
@@ -303,22 +308,26 @@ h1 {
     width: 50%;
     gap: 20px;
 }
+
 .Project {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
 }
+
 .Contact_info h2 {
     color: #55e6a5;
     text-align: center;
 }
+
 .Contact_info2 {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
 }
+
 .review {
     width: 150px;
     height: 180px;
@@ -332,21 +341,25 @@ h1 {
     padding: 20px;
     transition: 0.5s all;
 }
+
 .review:hover {
     background-color: rgba(128, 128, 128, 0.131);
     cursor: pointer;
     transform: translateX(-20px);
 }
+
 .form {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
 }
+
 .review i {
     font-size: 30px;
     color: #55e6a5;
 }
+
 .Form input {
     height: 50px;
     width: 610px;
@@ -358,6 +371,7 @@ h1 {
     color: #fff;
     font-size: 15px;
 }
+
 .button {
     height: 50px;
     width: 50%;
@@ -365,6 +379,7 @@ h1 {
     font-size: 20px;
     border: none;
 }
+
 .skills {
     display: flex;
     justify-content: space-around;
@@ -374,6 +389,7 @@ h1 {
     padding: 4% 0%;
 
 }
+
 .skills_info {
     display: flex;
     justify-content: center;
@@ -381,12 +397,15 @@ h1 {
     flex-direction: column;
     gap: 20px;
 }
+
 .skills_info h3 {
     color: #55e6a5;
 }
+
 .skills_info h1 {
     color: #fff;
 }
+
 .devlopment {
     display: flex;
     justify-content: space-around;
@@ -395,73 +414,131 @@ h1 {
     padding: 0% 6%;
     margin: 30px;
 }
+
 .course {
     display: flex;
     justify-content: space-around;
     align-items: start;
     flex-direction: column;
     gap: 10px;
-    width: 25%;  
+    width: 45%;
+   
+
 }
+
+
+
 .course h2 {
     color: #fff;
-    font-size: 35px;  
+    font-size: 35px;
 }
+
 .course h3 {
     color: #55e6a5;
     border: 1px solid #55e6a5;
     padding: 10px;
     font-weight: 300;
 }
+
 .course p {
     color: #fff;
-    
+
 }
+.devlopment1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30vh;
+    padding: 0% 6%;
+    margin: 30px;
+}
+.course12 {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%;
+   
+
+}
+
+
+
+.course12 h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.course12 h3 {
+    color: #55e6a5;
+    border: 1px solid #55e6a5;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.course12 p {
+    color: #fff;
+
+}
+
 .Contact_info h1 {
     font-size: 40x !important;
 }
-.main_courses{
+
+.main_courses {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 10%;
+    padding: 80px 10%;
     background-color: #000;
 }
-.course1_revil{
+
+.course1_revil {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
-} 
-.courses_wrapper{
+    gap: 30px;
+}
+
+.course1_revil {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.courses_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    width: 500px;
-    height: 80px;
+    width: 600px;
+    height: 100px;
     padding: 10px;
     background-color: #0c0e1c;
     color: #fff;
     border: 1px solid #55e6a5;
     padding: 20px;
 }
-.courses_wrapper h3{
+
+.courses_wrapper h3 {
     font-size: 25px;
-    font-weight: 400; 
-}    
-h3 a{
-    color: white;  
+    font-weight: 400;
 }
-.course1{
+
+h3 a {
+    color: white;
+}
+
+.course1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    
+
 }
-.protfolio_galary{
+
+.protfolio_galary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -470,44 +547,52 @@ h3 a{
     gap: 20px;
     padding: 4% 0%;
 }
-.protfolio_info{
+
+.protfolio_info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.protfolio_info h1{
+
+.protfolio_info h1 {
     font-weight: 300;
     color: #55e6a5;
 
 }
-button :hover{
+
+button :hover {
     background-color: azure;
 }
-.galary1{
+
+.galary1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}   
-.footer{
+}
+
+.footer {
     padding: 4% 0%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000;
-}   
-.footer_info{
+}
+
+.footer_info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
 }
-.footer_info h1{
+
+.footer_info h1 {
     font-weight: 300;
 }
-.check_mail{
+
+.check_mail {
     height: 80px;
     width: 90%;
     display: flex;
@@ -516,7 +601,8 @@ button :hover{
     border: 1px solid #55e6a5;
     background-color: #000;
 }
-.check_mail input{
+
+.check_mail input {
     height: 30px;
     width: 100%;
     border: none;
@@ -526,7 +612,8 @@ button :hover{
     font-size: 20px;
     background-color: transparent;
 }
-.check_mail button{
+
+.check_mail button {
     width: 120px;
     height: 50px;
     margin: 10px;
@@ -534,11 +621,13 @@ button :hover{
     color: #000;
     border: none;
 }
-.check_mail button:hover{
+
+.check_mail button:hover {
     background-color: #fff;
     font-weight: 500;
 }
-.main_footer{
+
+.main_footer {
     min-height: 80px;
     display: flex;
     justify-content: center;
@@ -546,18 +635,32 @@ button :hover{
     background-color: #000;
     color: #fff;
 }
-.main_footer h3{
+
+.main_footer h3 {
+    display: flex;
+    align-items: self-start;
     font-weight: 300;
+    margin-right: 900px;
+    padding: 10px;
+
 }
-.main_footer ul{
-    margin: 10px;
+
+.main_footer li {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-right: 20px;
     font-size: 20px;
 }
-.main_footer ul li a{
+
+.main_footer li a {
     color: #55e6a5;
     transition: .3s;
+
 }
-.main_footer ul li a:hover{
+
+.main_footer li a:hover {
     color: #fff;
 }
 
+@media screen {}
